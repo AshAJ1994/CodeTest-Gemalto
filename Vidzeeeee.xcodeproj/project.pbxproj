@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		499B80F42230155A00672B8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B80F32230155A00672B8E /* AppDelegate.m */; };
-		499B80F72230155A00672B8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499B80F62230155A00672B8E /* ViewController.m */; };
 		499B80FA2230155A00672B8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499B80F82230155A00672B8E /* Main.storyboard */; };
 		499B80FC2230155D00672B8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499B80FB2230155D00672B8E /* Assets.xcassets */; };
 		499B80FF2230155D00672B8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499B80FD2230155D00672B8E /* LaunchScreen.storyboard */; };
@@ -19,7 +18,9 @@
 		49D2010A2235661600EF5AB2 /* libGemaltoProjectStaticLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D201092235661500EF5AB2 /* libGemaltoProjectStaticLibrary.a */; };
 		49D2011122366F6C00EF5AB2 /* MovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2011022366F6C00EF5AB2 /* MovieTableViewCell.m */; };
 		49D201142237930800EF5AB2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D201132237930800EF5AB2 /* Security.framework */; };
-		49D201172237939600EF5AB2 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D201152237939600EF5AB2 /* KeychainItemWrapper.m */; };
+		49D2011A2237FA3800EF5AB2 /* apiPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49D201192237FA3800EF5AB2 /* apiPlist.plist */; };
+		49D2011D2237FF5900EF5AB2 /* EntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D2011C2237FF5900EF5AB2 /* EntryViewController.m */; };
+		49D201232238090A00EF5AB2 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49D201222238090900EF5AB2 /* SearchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +44,6 @@
 		499B80EF2230155A00672B8E /* Vidzeeeee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vidzeeeee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		499B80F22230155A00672B8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		499B80F32230155A00672B8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		499B80F52230155A00672B8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		499B80F62230155A00672B8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		499B80F92230155A00672B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		499B80FB2230155D00672B8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		499B80FE2230155D00672B8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,12 +58,14 @@
 		499B81242231098000672B8E /* gemalto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = gemalto.jpg; path = ../../../gemalto.jpg; sourceTree = "<group>"; };
 		49D201092235661500EF5AB2 /* libGemaltoProjectStaticLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGemaltoProjectStaticLibrary.a; sourceTree = "<group>"; };
 		49D2010B2235665300EF5AB2 /* gemaltoStaticLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gemaltoStaticLibrary.h; sourceTree = "<group>"; };
-		49D2010F22366F6C00EF5AB2 /* MovieTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieTableViewCell.h; sourceTree = "<group>"; };
 		49D2011022366F6C00EF5AB2 /* MovieTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewCell.m; sourceTree = "<group>"; };
 		49D201132237930800EF5AB2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		49D201152237939600EF5AB2 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
-		49D201162237939600EF5AB2 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
 		49D2011822379FEB00EF5AB2 /* Vidzeeeee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Vidzeeeee.entitlements; sourceTree = "<group>"; };
+		49D201192237FA3800EF5AB2 /* apiPlist.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = apiPlist.plist; sourceTree = "<group>"; };
+		49D2011B2237FF5900EF5AB2 /* EntryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryViewController.h; sourceTree = "<group>"; };
+		49D2011C2237FF5900EF5AB2 /* EntryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryViewController.m; sourceTree = "<group>"; };
+		49D201222238090900EF5AB2 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		49D201242238097600EF5AB2 /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,13 +122,12 @@
 				49D2011822379FEB00EF5AB2 /* Vidzeeeee.entitlements */,
 				499B80F22230155A00672B8E /* AppDelegate.h */,
 				499B80F32230155A00672B8E /* AppDelegate.m */,
-				499B80F52230155A00672B8E /* ViewController.h */,
-				499B80F62230155A00672B8E /* ViewController.m */,
-				49D201162237939600EF5AB2 /* KeychainItemWrapper.h */,
-				49D201152237939600EF5AB2 /* KeychainItemWrapper.m */,
-				49D2010F22366F6C00EF5AB2 /* MovieTableViewCell.h */,
 				49D2011022366F6C00EF5AB2 /* MovieTableViewCell.m */,
+				49D201242238097600EF5AB2 /* SearchViewController.h */,
+				49D201222238090900EF5AB2 /* SearchViewController.m */,
 				499B80F82230155A00672B8E /* Main.storyboard */,
+				49D2011B2237FF5900EF5AB2 /* EntryViewController.h */,
+				49D2011C2237FF5900EF5AB2 /* EntryViewController.m */,
 				49D2010B2235665300EF5AB2 /* gemaltoStaticLibrary.h */,
 				49D201092235661500EF5AB2 /* libGemaltoProjectStaticLibrary.a */,
 				499B80FB2230155D00672B8E /* Assets.xcassets */,
@@ -135,6 +135,7 @@
 				499B81002230155D00672B8E /* Info.plist */,
 				499B81012230155D00672B8E /* main.m */,
 				499B81242231098000672B8E /* gemalto.jpg */,
+				49D201192237FA3800EF5AB2 /* apiPlist.plist */,
 			);
 			path = Vidzeeeee;
 			sourceTree = "<group>";
@@ -276,6 +277,7 @@
 				499B80FF2230155D00672B8E /* LaunchScreen.storyboard in Resources */,
 				499B80FC2230155D00672B8E /* Assets.xcassets in Resources */,
 				499B80FA2230155A00672B8E /* Main.storyboard in Resources */,
+				49D2011A2237FA3800EF5AB2 /* apiPlist.plist in Resources */,
 				499B81252231098000672B8E /* gemalto.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,10 +303,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499B80F72230155A00672B8E /* ViewController.m in Sources */,
+				49D201232238090A00EF5AB2 /* SearchViewController.m in Sources */,
+				49D2011D2237FF5900EF5AB2 /* EntryViewController.m in Sources */,
 				499B81022230155D00672B8E /* main.m in Sources */,
 				49D2011122366F6C00EF5AB2 /* MovieTableViewCell.m in Sources */,
-				49D201172237939600EF5AB2 /* KeychainItemWrapper.m in Sources */,
 				499B80F42230155A00672B8E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
